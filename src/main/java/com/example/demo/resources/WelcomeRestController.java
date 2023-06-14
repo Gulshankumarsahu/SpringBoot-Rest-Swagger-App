@@ -14,7 +14,7 @@ public class WelcomeRestController {
 	@ApiOperation(value = "Get Welcome Message For The Given Name ", response = String.class, tags = "getWelcomeNote")
 	@GetMapping("/welcome/{name}")
 	public String welcome(@PathVariable("name") String name) {
-		return name+", finally successfully deploy Spring-Boot Project.....!!";
+		return name+", finally successfully deploy SpringBoot Project and your project are ready for deployment.......!!";
 	}
 
 }
